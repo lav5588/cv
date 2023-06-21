@@ -1,18 +1,24 @@
 @keyframes wipeUp {
     0%{
-        top:75%;
-        opacity: 0;
+       left:0px;
+       opacity: 0;
+       
     }
     100%{
-        top: 0;
-        opacity: 1;
+       left:600px;
+       opacity: 1;
+      
     }
     
 }
 
+
+
 body{
-    background-image: url("background.jpg");
+    background-image: url("Assets/background.jpg");
     background-attachment: fixed;
+    animation-name:wipeUp;
+    animation-duration: 5s;
     
     background-size:100%;
     color: grey;
@@ -25,16 +31,24 @@ div{
     text-align: center;
     margin-top: 100px;
     top: 0px;
+    vertical-align: top;
+  
 }
 div#intro{
     justify-content: center;
     text-align: center;
+    align-content: center;
+    
+   
 }
 img{
     height:600px;
+    
+    
+   
     border-radius: 10px;
-    animation: wipeUp 2s;
 }
+
 
 div.section2 h1{
     font-size:xx-large;
@@ -56,14 +70,51 @@ input{
     margin-bottom: 4px;
     padding-top: 2px;
     border-radius: 5px;
-    height: 25px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bold;
 }
 
 textarea{
     text-align: left;
     border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    
 }
 button{
-    height:40px;
-    width: 100px;
+    height:60px;
+    width: 600px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(4, 46, 4);
+    margin-bottom: 50px;
 }
+
+
+footer{
+    
+    background-color: wheat;
+   
+   
+}
+footer span{
+    display: flex;
+    margin-left: 500px;
+}
+
+.footer{
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+
+
