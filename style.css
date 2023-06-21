@@ -32,8 +32,8 @@ div#intro{
 }
 img{
     height:600px;
-   
     border-radius: 10px;
+    animation: wipeUp 2s;
 }
 
 div.section2 h1{
