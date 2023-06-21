@@ -92,29 +92,3 @@ button{
 }
 
 
-footer{
-    
-    background-color: wheat;
-   
-   
-}
-footer span{
-    display: flex;
-    margin-left: 500px;
-}
-
-.footer{
-    list-style: none;
-    margin-left: 50px;
-    margin-right: 50px;
-   
-}
-a{
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-    font-size: medium;
-}
-
-
-
